@@ -1,0 +1,110 @@
+/* ---------- GENERAL ---------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* ---------- ENCABEZADO ---------- */
+header {
+  background-image: linear-gradient(135deg, #007BFF, #00c6ff);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* ---------- SECCIONES ---------- */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* ---------- IMÁGENES EN CARDS ---------- */
+.card img {
+  border-radius: 10px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* ---------- TÍTULOS DE SECCIÓN ---------- */
+h2 {
+  font-weight: 700;
+  color: #0056b3;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #111;
+}
+
+footer h4,
+footer h5 {
+  color: #ffffff;
+}
+
+footer p,
+footer li,
+footer a {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* ---------- BOTONES NAVBAR ---------- */
+.nav-link {
+  font-weight: 500;
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #00c6ff !important;
+}
+
+/* ---------- ANIMACIONES OPCIONALES ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 0.7s ease-in;
+}
